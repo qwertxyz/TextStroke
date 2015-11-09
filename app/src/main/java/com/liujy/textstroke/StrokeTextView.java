@@ -35,7 +35,7 @@ public class StrokeTextView extends TextView {
         TextPaint tp1 = storekeText.getPaint();
         tp1.setStrokeWidth(10);                          // 设置描边宽度
         tp1.setStyle(Style.STROKE);                     // 对文字只描边
-        storekeText.setTextColor(0xFF3008FF);            // 设置描边颜色
+        storekeText.setTextColor(0xFFFFFFFF);            // 设置描边颜色
         storekeText.setGravity(getGravity());
     }
 
